@@ -27,6 +27,7 @@ public class CourseService implements CourseRepository {
 	public List<Courses> getCourses() {
 		// TODO Auto-generated method stub
 //		return li;
+		System.out.println("sita ram");
 		return courseDao.findAll();
 	}
 
